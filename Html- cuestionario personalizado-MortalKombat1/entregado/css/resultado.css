@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/gifs/tumblr_lyieughuEH1qfqijeo1_500.gif);
+    background-size: cover;
+    /* Cubre toda la pantalla */
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+fieldset {
+    background-color: rgba(0, 0, 0, 0.287);
+    border: none;
+}
+
+
+
+button {
+  border: none;
+  font-size: 70px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: mkk ;
+
+      font-weight: bold;
+    background-image: linear-gradient(to bottom,
+            #FF4500 0%,
+            #FF8C00 35%,
+            #FFD700 65%);
+    background-clip: text;
+    color: transparent;
+
+
+
+}
+
+button:hover {
+  background-color: transparent;
+  /* Menos transparente al pasar el mouse */
+  transform: scale(1.05);
+  /* cambia el tamaño del recuadro al pasar el mouse*/
+
+}
+
+
+.botton{
+ margin-top: 60px;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-family: MortalKombat;
+    color: white;
+}
+
+b {
+    color: white;
+    font-size: 90px;
+
+
+}
+
+p {
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: mk;
+    color: red;
+
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-family: Mk;
+    color: green;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(0, 150, 255, 0.6);
+}
+
+
+
+@font-face {
+    font-family: Mk;
+    src: url(/mkafont.ttf);
+}
+
+
+@font-face {
+    font-family: MortalKombat;
+    src: url(/mktitle.ttf);
+}
+@font-face {
+    font-family: mkk ;
+    src: url(/BourbonRough\ \(1\).ttf);
+}

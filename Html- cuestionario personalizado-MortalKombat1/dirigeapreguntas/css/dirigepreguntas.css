@@ -1,0 +1,63 @@
+body {
+  background-image: url('/img/mortal-kombat-1.jpg');
+  background-size: cover;
+  /* Cubre toda la pantalla */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  /* Fondo fijo aunque haya scroll */
+
+
+
+}
+
+button {
+  background-color: rgb(5, 73, 125);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: mkk;
+  font-size: 30px;
+
+
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Menos transparente al pasar el mouse */
+  transform: scale(1.05);
+  /* cambia el tamaño del recuadro al pasar el mouse*/
+  color: red;
+}
+
+.boton {
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+
+
+.bienvenida {
+  display: flex;
+  margin-left: 27%;
+  margin-top: -50px; 
+}
+
+
+.animado {
+  display: flex;
+  margin-top: 90px;
+
+}
+
+
+
+
+
+@font-face {
+  font-family: mkk;
+  src: url(/mkafont.ttf);
+}
